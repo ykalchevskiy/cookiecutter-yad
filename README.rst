@@ -1,7 +1,7 @@
 cookiecutter-yad
 ================
 
-**Y**et**A**nother**D**jango template for cookiecutter.
+**Y**\ et **A**\ nother **D**\ jango template for cookiecutter.
 
 
 Features
