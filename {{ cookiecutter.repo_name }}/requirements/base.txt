@@ -1,7 +1,6 @@
 # Django 1.7.0.alpha.2, will be replaced with stable release
 # django>=1.7
--e git+git://github.com/django/django.git@v1.7a2#egg=djangp
--e git+git://github.com/django/django.git@43510cffcbf64e73232da1d6209151c7232fd2b6#egg=django
+-e git+git://github.com/django/django.git@v1.7b3#egg=django
 
 # django packages
 django-braces==1.4.0
