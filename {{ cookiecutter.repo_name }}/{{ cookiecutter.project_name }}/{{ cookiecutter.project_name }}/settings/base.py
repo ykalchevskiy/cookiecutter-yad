@@ -47,9 +47,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'tratata.urls'
+ROOT_URLCONF = '{{ cookiecutter.project_name }}.urls'
 
-WSGI_APPLICATION = 'tratata.wsgi.application'
+WSGI_APPLICATION = '{{ cookiecutter.project_name }}.wsgi.application'
 
 
 # Database
