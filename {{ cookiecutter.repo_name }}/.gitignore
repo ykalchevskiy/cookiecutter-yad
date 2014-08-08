@@ -1,5 +1,9 @@
+.idea
+
 *~
+
 *.py[cod]
 __pycache__
 
-.idea
+assets/
+dev.db
