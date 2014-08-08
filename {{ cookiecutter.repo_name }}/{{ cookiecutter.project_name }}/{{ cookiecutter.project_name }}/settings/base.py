@@ -52,7 +52,7 @@ DJANGO_APPS = (
 )
 
 LOCAL_APPS = (
-    {{ cookiecutter.app_name }},
+    'apps.{{ cookiecutter.app_name }}',
 )
 
 THIRD_PARTY = ()
