@@ -31,7 +31,7 @@ def get_env_variable(var_name):
     raise ImproperlyConfigured(error_msg)
 
 
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 REPO_DIR = os.path.dirname(BASE_DIR)
 
 SECRET_KEY = get_env_variable('SECRET_KEY')
